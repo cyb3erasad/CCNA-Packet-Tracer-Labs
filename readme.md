@@ -1,0 +1,107 @@
+# CCNA Packet Tracer Labs 🌐
+
+Daily hands-on practice while studying for the **CCNA (200-301)** certification, following [Jeremy's IT Lab's free CCNA course](https://www.youtube.com/playlist?list=PLxbwE86jKRgMpuZuLBivzlM8s2Dk5lXBQ).
+
+Every day I watch one lecture, complete the matching Packet Tracer lab, and write handwritten notes / flashcards to reinforce the concept. This repo tracks that daily progress.
+
+---
+
+## 📌 Goal
+
+Building a strong networking foundation on the path toward becoming a **Junior SOC Analyst** — CCNA → Security+ → TryHackMe SOC Level 1.
+
+---
+
+## 🗂️ Repo Structure
+
+```
+├── Day01-Network-Devices/
+├── Day02-Interfaces-and-Cables/
+├── Day03-TCPIP-Model/
+├── Day04-Cisco-IOS-CLI/
+├── Day05-Ethernet-LAN-Switching-Part1/
+├── Day06-Ethernet-LAN-Switching-Part2-ARP/
+├── Day07-IPv4-Addressing-Part1/
+├── ...
+└── README.md
+```
+
+Each folder contains:
+- `.pkt` file (Packet Tracer lab)
+- Screenshot(s) of the completed topology / CLI output
+- Flashcards / notes for that topic
+
+---
+
+## 📅 Progress Log
+
+| Day | Topic | Status |
+|-----|-------|--------|
+| 1 | Network Devices | ✅ Done |
+| 2 | Interfaces and Cables | ✅ Done |
+| 3 | TCP/IP Model | ✅ Done |
+| 4 | Introduction to Cisco IOS CLI | ✅ Done |
+| 5 | Ethernet LAN Switching (Part 1) | ✅ Done |
+| 6 | Ethernet LAN Switching (Part 2) – ARP | ✅ Done |
+| 7 | IPv4 Addressing (Part 1) | ✅ Done |
+
+*(Table gets a new row every day — see "How I Update This" below)*
+
+---
+
+## 📖 Daily Breakdown
+
+### Day 1 — Network Devices
+Learned about nodes, end hosts/endpoints, and the role of core network devices: routers, switches, firewalls, clients, and servers.
+**Lab:** Introduction to Packet Tracer — got familiar with the simulator interface and workspace.
+
+### Day 2 — Interfaces and Cables
+Deep dive into cable types and interfaces: Ethernet, UTP, and Fiber Optic.
+**Lab:** Connecting devices with the correct cable type:
+- Single-mode fiber → long-distance links
+- Straight-through → PC-to-switch
+- Crossover → switch-to-switch
+
+### Day 3 — TCP/IP Model
+Studied each layer of the TCP/IP model in depth — function, operation, protocols, standards, and PDUs (Protocol Data Units) at every layer.
+**Lab:** Visualized all 5 layers directly in Packet Tracer (Physical, Local Network, Network, Transport, Application) — first time seeing a packet built/broken down layer by layer.
+
+### Day 4 — Introduction to Cisco IOS CLI
+Learned to connect to a Cisco device via console port (rollover cable) and configure it through PuTTY. Covered:
+- Running-config vs. startup-config
+- Privilege mode & secure passwords
+- `service password-encryption` → Type 7 (Cisco proprietary) vs Type 5 (MD5)
+- Saving configs: `write`, `write memory`, `copy running-config startup-config`
+
+**Lab:** Console access + password security setup in Packet Tracer.
+
+### Day 5 — Ethernet LAN Switching (Part 1)
+Studied the Ethernet frame structure:
+- **Header:** Preamble, SFD, Destination MAC, Source MAC, Type
+- **Trailer:** FCS (Frame Check Sequence) — 4 bytes, used for error detection
+- **MAC Address:** 48-bit (6 bytes), burned into the NIC
+
+### Day 6 — Ethernet LAN Switching (Part 2) – ARP
+Learned how ARP (Address Resolution Protocol) resolves IP-to-MAC mappings, and how switches handle traffic:
+- **Unknown Unicast → Flood**
+- **Known Unicast → Forward**
+
+Also covered minimum Ethernet payload size (46 bytes, padded if smaller) and practiced `ping` while observing ARP resolution in real time.
+
+### Day 7 — IPv4 Addressing (Part 1)
+Learned the structure of IPv4 addresses (4 octets, dotted-decimal notation) and how to convert between binary and decimal. Covered IPv4 address classes and subnet masks (netmasks).
+
+---
+
+## ✍️ How I Update This README
+
+Each new day, I add:
+1. A new row to the **Progress Log** table
+2. A new section under **Daily Breakdown** with the topic summary + lab notes
+3. A new folder following the naming pattern: `DayXX-Topic-Name/`
+
+---
+
+## 🔗 Connect
+
+Following along daily on https://www.linkedin.com/in/asad-nadeem-72a85b3a5/ (#) — posting progress, labs, and key takeaways from each lecture.
