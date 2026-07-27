@@ -22,7 +22,7 @@ Building a strong networking foundation on the path toward becoming a **Junior S
 ├── Day05-Ethernet-LAN-Switching-Part1/
 ├── Day06-Ethernet-LAN-Switching-Part2-ARP/
 ├── Day07-IPv4-Addressing-Part1/
-├── ...
+├── Day08-IPv4-Addressing-Part2/
 └── README.md
 ```
 
@@ -44,6 +44,7 @@ Each folder contains:
 | 5 | Ethernet LAN Switching (Part 1) | ✅ Done |
 | 6 | Ethernet LAN Switching (Part 2) – ARP | ✅ Done |
 | 7 | IPv4 Addressing (Part 1) | ✅ Done |
+| 8 | IPv4 Addressing (Part 2) | ✅ Done |
 
 *(Table gets a new row every day — see "How I Update This" below)*
 
@@ -91,6 +92,10 @@ Also covered minimum Ethernet payload size (46 bytes, padded if smaller) and pra
 ### Day 7 — IPv4 Addressing (Part 1)
 Learned the structure of IPv4 addresses (4 octets, dotted-decimal notation) and how to convert between binary and decimal. Covered IPv4 address classes and subnet masks (netmasks).
 
+### Day 8 — IPv4 Addressing (Part 2)
+Learned about the host portion of an IP address: all 0s = Network Address (Network ID), all 1s = Broadcast Address. Learned the formula for maximum usable hosts per network — 2^n − 2 (n = host bits) — and practiced finding the first/last usable IP across Class A, B, and C networks.
+
+**Lab:** Configured R1's hostname, used `show` commands to inspect interfaces, assigned and enabled IP addresses with descriptions, verified via running-config, and saved the configuration. Configured IPs on PC1, PC2, and PC3, then confirmed connectivity via ping between all three.
 ---
 
 ## ✍️ How I Update This README
