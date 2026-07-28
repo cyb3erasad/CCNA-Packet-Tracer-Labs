@@ -23,6 +23,7 @@ Building a strong networking foundation on the path toward becoming a **Junior S
 ├── Day06-Ethernet-LAN-Switching-Part2-ARP/
 ├── Day07-IPv4-Addressing-Part1/
 ├── Day08-IPv4-Addressing-Part2/
+├── Day09-Switch-Interfaces/
 └── README.md
 ```
 
@@ -45,6 +46,7 @@ Each folder contains:
 | 6 | Ethernet LAN Switching (Part 2) – ARP | ✅ Done |
 | 7 | IPv4 Addressing (Part 1) | ✅ Done |
 | 8 | IPv4 Addressing (Part 2) | ✅ Done |
+| 9 | Switch Interfaces | ✅ Done |
 
 *(Table gets a new row every day — see "How I Update This" below)*
 
@@ -96,6 +98,11 @@ Learned the structure of IPv4 addresses (4 octets, dotted-decimal notation) and 
 Learned about the host portion of an IP address: all 0s = Network Address (Network ID), all 1s = Broadcast Address. Learned the formula for maximum usable hosts per network — 2^n − 2 (n = host bits) — and practiced finding the first/last usable IP across Class A, B, and C networks.
 
 **Lab:** Configured R1's hostname, used `show` commands to inspect interfaces, assigned and enabled IP addresses with descriptions, verified via running-config, and saved the configuration. Configured IPs on PC1, PC2, and PC3, then confirmed connectivity via ping between all three.
+
+### Day 9 — Switch Interfaces
+Learned to configure interface speed, duplex, and descriptions on a switch. Studied Half Duplex vs Full Duplex (half duplex now legacy, used with hubs) and CSMA/CD (Carrier Sense Multiple Access with Collision Detection) for collision avoidance. Also covered speed/duplex auto-negotiation and interface errors like Runts and Giants.
+
+**Lab:** Configured hostnames on R1, SW1, SW2; assigned IPs to R1, PC1-PC4; manually set speed/duplex on inter-device links; added interface descriptions; disabled unused interfaces.
 ---
 
 ## ✍️ How I Update This README
