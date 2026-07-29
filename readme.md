@@ -24,6 +24,7 @@ Building a strong networking foundation on the path toward becoming a **Junior S
 ├── Day07-IPv4-Addressing-Part1/
 ├── Day08-IPv4-Addressing-Part2/
 ├── Day09-Switch-Interfaces/
+├── Day10-IPv4 Header/
 └── README.md
 ```
 
@@ -47,6 +48,7 @@ Each folder contains:
 | 7 | IPv4 Addressing (Part 1) | ✅ Done |
 | 8 | IPv4 Addressing (Part 2) | ✅ Done |
 | 9 | Switch Interfaces | ✅ Done |
+| 10 | IPv4 Header | ✅ Done |
 
 *(Table gets a new row every day — see "How I Update This" below)*
 
@@ -103,6 +105,9 @@ Learned about the host portion of an IP address: all 0s = Network Address (Netwo
 Learned to configure interface speed, duplex, and descriptions on a switch. Studied Half Duplex vs Full Duplex (half duplex now legacy, used with hubs) and CSMA/CD (Carrier Sense Multiple Access with Collision Detection) for collision avoidance. Also covered speed/duplex auto-negotiation and interface errors like Runts and Giants.
 
 **Lab:** Configured hostnames on R1, SW1, SW2; assigned IPs to R1, PC1-PC4; manually set speed/duplex on inter-device links; added interface descriptions; disabled unused interfaces.
+
+### Day 10 — IPv4 Header
+Deep dive into all 13 fields of the IPv4 header — function and length of each field (Version, Header Length, ToS, Total Length, Identification, Flags, Fragment Offset, TTL, Protocol, Header Checksum, Source/Destination IP, Options). Longest lecture in the course so far. Also examined these fields live in Wireshark on a real captured packet.
 ---
 
 ## ✍️ How I Update This README
