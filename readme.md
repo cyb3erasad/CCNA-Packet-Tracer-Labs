@@ -25,6 +25,7 @@ Building a strong networking foundation on the path toward becoming a **Junior S
 ├── Day08-IPv4-Addressing-Part2/
 ├── Day09-Switch-Interfaces/
 ├── Day10-IPv4 Header/
+├── Day11-Routing-Fundamentals(Part-1)/
 └── README.md
 ```
 
@@ -49,6 +50,7 @@ Each folder contains:
 | 8 | IPv4 Addressing (Part 2) | ✅ Done |
 | 9 | Switch Interfaces | ✅ Done |
 | 10 | IPv4 Header | ✅ Done |
+| 11 | Routing Fundamentals (Part 1) | ✅ Done |
 
 *(Table gets a new row every day — see "How I Update This" below)*
 
@@ -108,6 +110,11 @@ Learned to configure interface speed, duplex, and descriptions on a switch. Stud
 
 ### Day 10 — IPv4 Header
 Deep dive into all 13 fields of the IPv4 header — function and length of each field (Version, Header Length, ToS, Total Length, Identification, Flags, Fragment Offset, TTL, Protocol, Header Checksum, Source/Destination IP, Options). Longest lecture in the course so far. Also examined these fields live in Wireshark on a real captured packet.
+
+### Day 11 — Routing Fundamentals (Part 1)
+Learned the two main routing methods — Dynamic and Static (Static covered deeper in Part 2) — and how routing tables work. Covered routing table codes: C (Connected) and L (Local). Configuring an IP address on an interface + `no shutdown` automatically adds both a connected and a local route to the table.
+
+**Lab:** Built a multi-router topology (R1-R4) across several subnets, configured interface IPs on all routers, set up PC1 and PC4 with IPs and default gateways, and verified with `show ip int br`.
 ---
 
 ## ✍️ How I Update This README
