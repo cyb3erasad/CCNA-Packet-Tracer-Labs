@@ -26,6 +26,7 @@ Building a strong networking foundation on the path toward becoming a **Junior S
 ├── Day09-Switch-Interfaces/
 ├── Day10-IPv4 Header/
 ├── Day11-Routing-Fundamentals(Part-1)/
+├── Day11-Static-Routing(Part-2)/
 └── README.md
 ```
 
@@ -51,6 +52,7 @@ Each folder contains:
 | 9 | Switch Interfaces | ✅ Done |
 | 10 | IPv4 Header | ✅ Done |
 | 11 | Routing Fundamentals (Part 1) | ✅ Done |
+| 11 | Static Routing (Part 2) | ✅ Done |
 
 *(Table gets a new row every day — see "How I Update This" below)*
 
@@ -115,6 +117,12 @@ Deep dive into all 13 fields of the IPv4 header — function and length of each 
 Learned the two main routing methods — Dynamic and Static (Static covered deeper in Part 2) — and how routing tables work. Covered routing table codes: C (Connected) and L (Local). Configuring an IP address on an interface + `no shutdown` automatically adds both a connected and a local route to the table.
 
 **Lab:** Built a multi-router topology (R1-R4) across several subnets, configured interface IPs on all routers, set up PC1 and PC4 with IPs and default gateways, and verified with `show ip int br`.
+
+### Day 11 — Static Routing (Part 2)
+Learned about default gateways and how to configure one, plus static routing theory and configuration.
+
+**Lab 1:** Configured static routes end-to-end (PC1 → SW1 → R1 → R2 → SW2 → PC2) and confirmed bidirectional connectivity via ping.
+**Lab 2 (Troubleshooting):** Same topology, but ping was failing. Diagnosed and fixed the root cause — isolating whether it was an IP misconfiguration or a missing/incorrect static route.
 ---
 
 ## ✍️ How I Update This README
