@@ -123,6 +123,9 @@ Learned about default gateways and how to configure one, plus static routing the
 
 **Lab 1:** Configured static routes end-to-end (PC1 → SW1 → R1 → R2 → SW2 → PC2) and confirmed bidirectional connectivity via ping.
 **Lab 2 (Troubleshooting):** Same topology, but ping was failing. Diagnosed and fixed the root cause — isolating whether it was an IP misconfiguration or a missing/incorrect static route.
+
+**Bonus lab:** Extended the static routing concept into a larger topology — two LANs (SW1, SW2) connected via 4 routers (R1-R4) with two redundant paths (R1→R3→R4 and R1→R2→R4). Configured static routes on all routers and default gateways on all PCs to enable full cross-LAN communication.
+
 ---
 
 ## ✍️ How I Update This README
