@@ -52,7 +52,8 @@ Each folder contains:
 | 9 | Switch Interfaces | ✅ Done |
 | 10 | IPv4 Header | ✅ Done |
 | 11 | Routing Fundamentals (Part 1) | ✅ Done |
-| 11 | Static Routing (Part 2) | ✅ Done |
+| 12 | Static Routing (Part 2) | ✅ Done |
+| 13 | Subnetting (Part 1) | ✅ Done |
 
 *(Table gets a new row every day — see "How I Update This" below)*
 
@@ -126,6 +127,8 @@ Learned about default gateways and how to configure one, plus static routing the
 
 **Bonus lab:** Extended the static routing concept into a larger topology — two LANs (SW1, SW2) connected via 4 routers (R1-R4) with two redundant paths (R1→R3→R4 and R1→R2→R4). Configured static routes on all routers and default gateways on all PCs to enable full cross-LAN communication.
 
+### Day 13 — Subnetting (Part 1)
+Learned CIDR notation and the fundamentals of subnetting. Practiced finding usable addresses in a Class C network, and worked through dividing 192.168.1.0/24 into 4 subnets sized to accommodate 45 hosts each. Widely considered the hardest CCNA topic — mastery requires heavy practice and comfort with binary-to-decimal conversion.
 ---
 
 ## ✍️ How I Update This README
