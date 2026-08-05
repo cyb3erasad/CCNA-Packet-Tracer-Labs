@@ -54,6 +54,7 @@ Each folder contains:
 | 11 | Routing Fundamentals (Part 1) | ✅ Done |
 | 12 | Static Routing (Part 2) | ✅ Done |
 | 13 | Subnetting (Part 1) | ✅ Done |
+| 14 | Subnetting (Part 2) | ✅ Done |
 
 *(Table gets a new row every day — see "How I Update This" below)*
 
@@ -129,6 +130,10 @@ Learned about default gateways and how to configure one, plus static routing the
 
 ### Day 13 — Subnetting (Part 1)
 Learned CIDR notation and the fundamentals of subnetting. Practiced finding usable addresses in a Class C network, and worked through dividing 192.168.1.0/24 into 4 subnets sized to accommodate 45 hosts each. Widely considered the hardest CCNA topic — mastery requires heavy practice and comfort with binary-to-decimal conversion.
+
+### Day 14 — Subnetting (Part 2)
+Practiced subnetting on Class B networks — finding usable address ranges and working through multiple subnetting scenarios. Reinforced concepts with quiz questions to test retention and speed.
+
 ---
 
 ## ✍️ How I Update This README
