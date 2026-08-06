@@ -27,6 +27,8 @@ Building a strong networking foundation on the path toward becoming a **Junior S
 ├── Day10-IPv4 Header/
 ├── Day11-Routing-Fundamentals(Part-1)/
 ├── Day11-Static-Routing(Part-2)/
+├── Day12-Life-Of-A-Packet/
+├── Day13-Subnetting(part-1,2,3)/
 └── README.md
 ```
 
@@ -55,6 +57,7 @@ Each folder contains:
 | 12 | Static Routing (Part 2) | ✅ Done |
 | 13 | Subnetting (Part 1) | ✅ Done |
 | 14 | Subnetting (Part 2) | ✅ Done |
+| 15 | Subnetting (Part 3) — VLSM | ✅ Done |
 
 *(Table gets a new row every day — see "How I Update This" below)*
 
@@ -133,6 +136,9 @@ Learned CIDR notation and the fundamentals of subnetting. Practiced finding usab
 
 ### Day 14 — Subnetting (Part 2)
 Practiced subnetting on Class B networks — finding usable address ranges and working through multiple subnetting scenarios. Reinforced concepts with quiz questions to test retention and speed.
+
+### Day 15 — Subnetting (Part 3, Final) — VLSM
+Practiced subnetting on Class A networks, then learned VLSM (Variable Length Subnet Mask) — creating subnets of different sizes based on actual host requirements for more efficient address allocation. Harder than fixed-length subnetting, but manageable when broken into a step-by-step process. Solved multiple VLSM practice questions.
 
 ---
 
