@@ -29,6 +29,7 @@ Building a strong networking foundation on the path toward becoming a **Junior S
 ├── Day11-Static-Routing(Part-2)/
 ├── Day12-Life-Of-A-Packet/
 ├── Day13-Subnetting(part-1,2,3)/
+├── VLSM-Subnetting+Static-ROuting/
 └── README.md
 ```
 
@@ -139,6 +140,9 @@ Practiced subnetting on Class B networks — finding usable address ranges and w
 
 ### Day 15 — Subnetting (Part 3, Final) — VLSM
 Practiced subnetting on Class A networks, then learned VLSM (Variable Length Subnet Mask) — creating subnets of different sizes based on actual host requirements for more efficient address allocation. Harder than fixed-length subnetting, but manageable when broken into a step-by-step process. Solved multiple VLSM practice questions.
+
+### Bonus Project — VLSM Subnetting + Static Routing
+Subnetted 192.168.5.0/24 to serve 4 LANs with different host requirements (45, 64, 14, 9 hosts) plus a separate point-to-point subnet between R1 and R2. Assigned first usable address to PCs, last usable address to router interfaces, and configured static routes across both routers for full inter-LAN connectivity. Added extra hosts beyond the minimum requirement in each LAN and verified end-to-end connectivity via ping.
 
 ---
 
