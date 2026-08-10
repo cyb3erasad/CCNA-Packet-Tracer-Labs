@@ -30,6 +30,7 @@ Building a strong networking foundation on the path toward becoming a **Junior S
 ├── Day12-Life-Of-A-Packet/
 ├── Day13-Subnetting(part-1,2,3)/
 ├── VLSM-Subnetting+Static-ROuting/
+├── Day16-VLANS(Part-1)/
 └── README.md
 ```
 
@@ -59,6 +60,7 @@ Each folder contains:
 | 13 | Subnetting (Part 1) | ✅ Done |
 | 14 | Subnetting (Part 2) | ✅ Done |
 | 15 | Subnetting (Part 3) — VLSM | ✅ Done |
+| 16 | VLANs (Part 1) | ✅ Done |
 
 *(Table gets a new row every day — see "How I Update This" below)*
 
@@ -144,6 +146,8 @@ Practiced subnetting on Class A networks, then learned VLSM (Variable Length Sub
 ### Bonus Project — VLSM Subnetting + Static Routing
 Subnetted 192.168.5.0/24 to serve 4 LANs with different host requirements (45, 64, 14, 9 hosts) plus a separate point-to-point subnet between R1 and R2. Assigned first usable address to PCs, last usable address to router interfaces, and configured static routes across both routers for full inter-LAN connectivity. Added extra hosts beyond the minimum requirement in each LAN and verified end-to-end connectivity via ping.
 
+### Day 16 — VLANs (Part 1)
+Learned about broadcast domains and VLANs — what they are, how to create them, and why they're used. Built a network with 3 VLANs (Engineering, HR, Sales), each on its own subnet. Learned that inter-VLAN traffic must pass through a router (switch → router → switch) since VLANs are separate broadcast domains, even on the same physical switch.
 ---
 
 ## ✍️ How I Update This README
