@@ -31,6 +31,7 @@ Building a strong networking foundation on the path toward becoming a **Junior S
 ├── Day13-Subnetting(part-1,2,3)/
 ├── VLSM-Subnetting+Static-ROuting/
 ├── Day16-VLANS(Part-1)/
+├── Day17-VLANS(Part-2)/
 └── README.md
 ```
 
@@ -61,6 +62,7 @@ Each folder contains:
 | 14 | Subnetting (Part 2) | ✅ Done |
 | 15 | Subnetting (Part 3) — VLSM | ✅ Done |
 | 16 | VLANs (Part 1) | ✅ Done |
+| 17 | VLANs (Part 2) — Trunking, 802.1Q, ROAS | ✅ Done |
 
 *(Table gets a new row every day — see "How I Update This" below)*
 
@@ -148,6 +150,10 @@ Subnetted 192.168.5.0/24 to serve 4 LANs with different host requirements (45, 6
 
 ### Day 16 — VLANs (Part 1)
 Learned about broadcast domains and VLANs — what they are, how to create them, and why they're used. Built a network with 3 VLANs (Engineering, HR, Sales), each on its own subnet. Learned that inter-VLAN traffic must pass through a router (switch → router → switch) since VLANs are separate broadcast domains, even on the same physical switch.
+
+### Day 17 — VLANs (Part 2): Trunking, 802.1Q Tagging, Router on a Stick
+Deep dive into trunk ports and VLAN tagging via 802.1Q (Dot1Q) — a 4-byte tag inserted between the Ethernet Source and Type fields, made up of TPID and TCI (which further breaks into PCP, DEI, VID). Covered VLAN ranges, Native VLAN, and trunk configuration (restricting allowed VLANs on a trunk). Finished with Router on a Stick (ROAS) / Inter-VLAN Routing — using router subinterfaces to route between VLANs. Spent 2 days on this lecture due to its depth.
+
 ---
 
 ## ✍️ How I Update This README
