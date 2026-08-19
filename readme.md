@@ -32,6 +32,7 @@ Building a strong networking foundation on the path toward becoming a **Junior S
 ├── VLSM-Subnetting+Static-ROuting/
 ├── Day16-VLANS(Part-1)/
 ├── Day17-VLANS(Part-2)/
+├── Day18-VLANS(Part-3)/
 └── README.md
 ```
 
@@ -63,6 +64,7 @@ Each folder contains:
 | 15 | Subnetting (Part 3) — VLSM | ✅ Done |
 | 16 | VLANs (Part 1) | ✅ Done |
 | 17 | VLANs (Part 2) — Trunking, 802.1Q, ROAS | ✅ Done |
+| 18 | VLANs (Part 3) — Native VLAN on Router, Multilayer Switch, SVI | ✅ Done |
 
 *(Table gets a new row every day — see "How I Update This" below)*
 
@@ -153,6 +155,9 @@ Learned about broadcast domains and VLANs — what they are, how to create them,
 
 ### Day 17 — VLANs (Part 2): Trunking, 802.1Q Tagging, Router on a Stick
 Deep dive into trunk ports and VLAN tagging via 802.1Q (Dot1Q) — a 4-byte tag inserted between the Ethernet Source and Type fields, made up of TPID and TCI (which further breaks into PCP, DEI, VID). Covered VLAN ranges, Native VLAN, and trunk configuration (restricting allowed VLANs on a trunk). Finished with Router on a Stick (ROAS) / Inter-VLAN Routing — using router subinterfaces to route between VLANs. Spent 2 days on this lecture due to its depth.
+
+### Day 18 — VLANs (Part 3, Final): Native VLAN on Router, Multilayer Switches, SVI
+Learned how to configure the Native VLAN on a router (2 methods). Introduced to Layer 3 (Multilayer) Switches — Layer 3-aware switches capable of routing, used for Inter-VLAN routing without a separate router. Learned SVI (Switch Virtual Interface) configuration — creating a virtual Layer 3 interface per VLAN directly on the switch for inter-VLAN routing.
 
 ---
 
