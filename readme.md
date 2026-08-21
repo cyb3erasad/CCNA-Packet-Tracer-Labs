@@ -172,4 +172,4 @@ Each new day, I add:
 
 ## 🔗 Connect
 
-Following along daily on https://www.linkedin.com/in/asad-nadeem-72a85b3a5/ (#) — posting progress, labs, and key takeaways from each lecture.
+Following along daily on https://www.linkedin.com/in/asad-nadeem-72a85b3a5/ — posting progress, labs, and key takeaways from each lecture.
