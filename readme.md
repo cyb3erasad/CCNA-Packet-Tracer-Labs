@@ -33,6 +33,7 @@ Building a strong networking foundation on the path toward becoming a **Junior S
 ├── Day16-VLANS(Part-1)/
 ├── Day17-VLANS(Part-2)/
 ├── Day18-VLANS(Part-3)/
+├── Day19-DTP-VTP/
 └── README.md
 ```
 
@@ -65,6 +66,7 @@ Each folder contains:
 | 16 | VLANs (Part 1) | ✅ Done |
 | 17 | VLANs (Part 2) — Trunking, 802.1Q, ROAS | ✅ Done |
 | 18 | VLANs (Part 3) — Native VLAN on Router, Multilayer Switch, SVI | ✅ Done |
+| 19 | DTP/VTP | ✅ Done |
 
 *(Table gets a new row every day — see "How I Update This" below)*
 
@@ -158,6 +160,9 @@ Deep dive into trunk ports and VLAN tagging via 802.1Q (Dot1Q) — a 4-byte tag 
 
 ### Day 18 — VLANs (Part 3, Final): Native VLAN on Router, Multilayer Switches, SVI
 Learned how to configure the Native VLAN on a router (2 methods). Introduced to Layer 3 (Multilayer) Switches — Layer 3-aware switches capable of routing, used for Inter-VLAN routing without a separate router. Learned SVI (Switch Virtual Interface) configuration — creating a virtual Layer 3 interface per VLAN directly on the switch for inter-VLAN routing.
+
+### Day 19 — DTP/VTP
+Learned DTP (Dynamic Trunking Protocol) — trunk negotiation modes: `switchport mode trunk`, `switchport mode dynamic desirable`, `switchport mode dynamic auto`. Also covered VTP (VLAN Trunking Protocol) and its 3 modes: Server, Client, Transparent, for propagating VLAN info across multiple switches. Not part of the official CCNA 200-301 blueprint, but useful background knowledge with occasional exam relevance.
 
 ---
 
