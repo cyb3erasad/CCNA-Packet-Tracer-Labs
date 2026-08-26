@@ -67,6 +67,7 @@ Each folder contains:
 | 17 | VLANs (Part 2) — Trunking, 802.1Q, ROAS | ✅ Done |
 | 18 | VLANs (Part 3) — Native VLAN on Router, Multilayer Switch, SVI | ✅ Done |
 | 19 | DTP/VTP | ✅ Done |
+| 20 | Spanning Tree Protocol (STP) — Part 1 | ✅ Done |
 
 *(Table gets a new row every day — see "How I Update This" below)*
 
@@ -163,6 +164,9 @@ Learned how to configure the Native VLAN on a router (2 methods). Introduced to 
 
 ### Day 19 — DTP/VTP
 Learned DTP (Dynamic Trunking Protocol) — trunk negotiation modes: `switchport mode trunk`, `switchport mode dynamic desirable`, `switchport mode dynamic auto`. Also covered VTP (VLAN Trunking Protocol) and its 3 modes: Server, Client, Transparent, for propagating VLAN info across multiple switches. Not part of the official CCNA 200-301 blueprint, but useful background knowledge with occasional exam relevance.
+
+### Day 20 — Spanning Tree Protocol (STP), Part 1
+Learned about network redundancy, broadcast storms, and how STP prevents Layer 2 loops. Covered Root Bridge, Bridge ID (default priority 32768), Root Port, Designated Port, Non-Designated Port, and STP cost by interface speed (100/19/4/2 for 10Mbps/100Mbps/1Gbps/10Gbps). The interface with the lowest root cost becomes the Root Port.
 
 ---
 
