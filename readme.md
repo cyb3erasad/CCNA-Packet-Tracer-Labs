@@ -34,6 +34,7 @@ Building a strong networking foundation on the path toward becoming a **Junior S
 ├── Day17-VLANS(Part-2)/
 ├── Day18-VLANS(Part-3)/
 ├── Day19-DTP-VTP/
+├── Day20-STP/
 └── README.md
 ```
 
