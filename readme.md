@@ -34,7 +34,8 @@ Building a strong networking foundation on the path toward becoming a **Junior S
 ├── Day17-VLANS(Part-2)/
 ├── Day18-VLANS(Part-3)/
 ├── Day19-DTP-VTP/
-├── Day20-STP/
+├── Day20-STP(Part-1)/
+├── Day20-STP(Part-2)/
 └── README.md
 ```
 
@@ -168,6 +169,9 @@ Learned DTP (Dynamic Trunking Protocol) — trunk negotiation modes: `switchport
 
 ### Day 20 — Spanning Tree Protocol (STP), Part 1
 Learned about network redundancy, broadcast storms, and how STP prevents Layer 2 loops. Covered Root Bridge, Bridge ID (default priority 32768), Root Port, Designated Port, Non-Designated Port, and STP cost by interface speed (100/19/4/2 for 10Mbps/100Mbps/1Gbps/10Gbps). The interface with the lowest root cost becomes the Root Port.
+
+### Day 21 — Spanning Tree Protocol (STP), Part 2
+Learned STP port states — Blocking and Forwarding (stable), Listening and Learning (transitional). Covered the STP toolkit: PortFast, BPDU Guard, Loop Guard, Root Guard. Learned STP mode configuration, manually setting the Root Bridge (Primary/Secondary), and per-port STP tuning (VLAN cost, port priority).
 
 ---
 
