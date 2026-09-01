@@ -35,7 +35,7 @@ Building a strong networking foundation on the path toward becoming a **Junior S
 ├── Day18-VLANS(Part-3)/
 ├── Day19-DTP-VTP/
 ├── Day20-STP(Part-1)/
-├── Day20-STP(Part-2)/
+├── Day21-STP(Part-2)/
 └── README.md
 ```
 
@@ -70,6 +70,7 @@ Each folder contains:
 | 18 | VLANs (Part 3) — Native VLAN on Router, Multilayer Switch, SVI | ✅ Done |
 | 19 | DTP/VTP | ✅ Done |
 | 20 | Spanning Tree Protocol (STP) — Part 1 | ✅ Done |
+| 21 | Spanning Tree Protocol (STP) — Part 2 | ✅ Done |
 
 *(Table gets a new row every day — see "How I Update This" below)*
 
