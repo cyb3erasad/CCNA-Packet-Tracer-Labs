@@ -36,6 +36,7 @@ Building a strong networking foundation on the path toward becoming a **Junior S
 ├── Day19-DTP-VTP/
 ├── Day20-STP(Part-1)/
 ├── Day21-STP(Part-2)/
+├── Day21(part-1)-(STP-Toolkit)-Portfast/
 └── README.md
 ```
 
@@ -71,6 +72,7 @@ Each folder contains:
 | 19 | DTP/VTP | ✅ Done |
 | 20 | Spanning Tree Protocol (STP) — Part 1 | ✅ Done |
 | 21 | Spanning Tree Protocol (STP) — Part 2 | ✅ Done |
+| 21 (Part 1) | STP Toolkit - PortFast | ✅ Done |
 
 *(Table gets a new row every day — see "How I Update This" below)*
 
@@ -173,6 +175,9 @@ Learned about network redundancy, broadcast storms, and how STP prevents Layer 2
 
 ### Day 21 — Spanning Tree Protocol (STP), Part 2
 Learned STP port states — Blocking and Forwarding (stable), Listening and Learning (transitional). Covered the STP toolkit: PortFast, BPDU Guard, Loop Guard, Root Guard. Learned STP mode configuration, manually setting the Root Bridge (Primary/Secondary), and per-port STP tuning (VLAN cost, port priority).
+
+### Day 21 (Part 1) - STP Toolkit: PortFast
+Deep dive into PortFast. Without it, an end-host port takes ~30 seconds to reach Forwarding (passing through Listening/Learning) despite being up/up. PortFast bypasses those transitional states for instant connectivity. Practiced configuring PortFast on a specific interface, as a default across all interfaces, and on trunk ports.
 
 ---
 
