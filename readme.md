@@ -37,6 +37,7 @@ Building a strong networking foundation on the path toward becoming a **Junior S
 ├── Day20-STP(Part-1)/
 ├── Day21-STP(Part-2)/
 ├── Day21(part-1)-(STP-Toolkit)-Portfast/
+├── Day21(part-2)-(STP-Toolkit)-BPDU-Guard-BPDU-FILTER/
 └── README.md
 ```
 
@@ -73,6 +74,7 @@ Each folder contains:
 | 20 | Spanning Tree Protocol (STP) — Part 1 | ✅ Done |
 | 21 | Spanning Tree Protocol (STP) — Part 2 | ✅ Done |
 | 21 (Part 1) | STP Toolkit - PortFast | ✅ Done |
+| 21 (Part 2) | STP Toolkit - BPDU Guard and BPDU Filter | ✅ Done |
 
 *(Table gets a new row every day — see "How I Update This" below)*
 
@@ -178,6 +180,9 @@ Learned STP port states — Blocking and Forwarding (stable), Listening and Lear
 
 ### Day 21 (Part 1) - STP Toolkit: PortFast
 Deep dive into PortFast. Without it, an end-host port takes ~30 seconds to reach Forwarding (passing through Listening/Learning) despite being up/up. PortFast bypasses those transitional states for instant connectivity. Practiced configuring PortFast on a specific interface, as a default across all interfaces, and on trunk ports.
+
+### Day 21 (Part 2) - STP Toolkit: BPDU Guard and BPDU Filter
+Learned BPDU Guard, which protects PortFast enabled ports by putting them into Err Disabled state if a BPDU is unexpectedly received (indicating a rogue switch connection). Learned BPDU Filter, which instead stops a port from sending or processing BPDUs entirely rather than shutting it down. Covered configuration and use case differences for both.
 
 ---
 
