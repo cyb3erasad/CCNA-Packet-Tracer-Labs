@@ -75,6 +75,7 @@ Each folder contains:
 | 21 | Spanning Tree Protocol (STP) — Part 2 | ✅ Done |
 | 21 (Part 1) | STP Toolkit - PortFast | ✅ Done |
 | 21 (Part 2) | STP Toolkit - BPDU Guard and BPDU Filter | ✅ Done |
+| 21 (Part 3) | STP Toolkit - Root Guard | ✅ Done |
 
 *(Table gets a new row every day — see "How I Update This" below)*
 
@@ -183,6 +184,9 @@ Deep dive into PortFast. Without it, an end-host port takes ~30 seconds to reach
 
 ### Day 21 (Part 2) - STP Toolkit: BPDU Guard and BPDU Filter
 Learned BPDU Guard, which protects PortFast enabled ports by putting them into Err Disabled state if a BPDU is unexpectedly received (indicating a rogue switch connection). Learned BPDU Filter, which instead stops a port from sending or processing BPDUs entirely rather than shutting it down. Covered configuration and use case differences for both.
+
+### Day 21 (Part 3) - STP Toolkit: Root Guard
+Learned Root Guard, which prevents a switch from accepting a superior BPDU from an out-of-control switch and letting it become the new Root Bridge. Applied per interface with a single command, `spanning-tree guard root`. If a superior BPDU is received on a protected port, that port is put into a blocking state instead of allowing a Root Bridge change.
 
 ---
 
