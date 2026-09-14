@@ -188,6 +188,13 @@ Learned BPDU Guard, which protects PortFast enabled ports by putting them into E
 ### Day 21 (Part 3) - STP Toolkit: Root Guard
 Learned Root Guard, which prevents a switch from accepting a superior BPDU from an out-of-control switch and letting it become the new Root Bridge. Applied per interface with a single command, `spanning-tree guard root`. If a superior BPDU is received on a protected port, that port is put into a blocking state instead of allowing a Root Bridge change.
 
+**Lab - Configuring STP (PVST+):**
+- Checked current STP topology via CLI, identified the Root Bridge and port role/state on each switch
+- Configured SW1 as Primary Root (VLAN1) / Secondary Root (VLAN2), and SW2 as Primary Root (VLAN2) / Secondary Root (VLAN1), then re-checked port roles/states
+- Increased VLAN1 STP cost on SW4's F0/2 to 100, tested whether SW4 selected a different Root Port
+- Increased VLAN1 port priority on SW1's F0/1 to 240, tested whether SW3 selected a different Root Port
+- Configured PortFast and BPDU Guard on SW3/SW4's F0/3 interfaces
+
 ---
 
 ## ✍️ How I Update This README
