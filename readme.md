@@ -38,6 +38,7 @@ Building a strong networking foundation on the path toward becoming a **Junior S
 ├── Day21-STP(Part-2)/
 ├── Day21(part-1)-(STP-Toolkit)-Portfast/
 ├── Day21(part-2)-(STP-Toolkit)-BPDU-Guard-BPDU-FILTER/
+├── Day22-Rapid-STP/
 └── README.md
 ```
 
