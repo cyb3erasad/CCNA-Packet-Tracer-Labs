@@ -77,6 +77,7 @@ Each folder contains:
 | 21 (Part 1) | STP Toolkit - PortFast | ✅ Done |
 | 21 (Part 2) | STP Toolkit - BPDU Guard and BPDU Filter | ✅ Done |
 | 21 (Part 3) | STP Toolkit - Root Guard | ✅ Done |
+| 22 | Rapid Spanning Tree Protocol (RSTP) | ✅ Done |
 
 *(Table gets a new row every day — see "How I Update This" below)*
 
@@ -195,6 +196,9 @@ Learned Root Guard, which prevents a switch from accepting a superior BPDU from 
 - Increased VLAN1 STP cost on SW4's F0/2 to 100, tested whether SW4 selected a different Root Port
 - Increased VLAN1 port priority on SW1's F0/1 to 240, tested whether SW3 selected a different Root Port
 - Configured PortFast and BPDU Guard on SW3/SW4's F0/3 interfaces
+
+### Day 22 - Rapid Spanning Tree Protocol (RSTP)
+Learned why RSTP is more efficient than classic STP through faster convergence. Covered RSTP port states, new port roles (Alternate Port, Backup Port), RSTP configuration (default on modern Cisco switches), and RSTP link types: Edge, Point to Point, Shared.
 
 ---
 
