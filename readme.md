@@ -39,6 +39,7 @@ Building a strong networking foundation on the path toward becoming a **Junior S
 ├── Day21(part-1)-(STP-Toolkit)-Portfast/
 ├── Day21(part-2)-(STP-Toolkit)-BPDU-Guard-BPDU-FILTER/
 ├── Day22-Rapid-STP/
+├── Day23-Ether-Channel/
 └── README.md
 ```
 
@@ -78,6 +79,7 @@ Each folder contains:
 | 21 (Part 2) | STP Toolkit - BPDU Guard and BPDU Filter | ✅ Done |
 | 21 (Part 3) | STP Toolkit - Root Guard | ✅ Done |
 | 22 | Rapid Spanning Tree Protocol (RSTP) | ✅ Done |
+| 23 | EtherChannel | ✅ Done |
 
 *(Table gets a new row every day — see "How I Update This" below)*
 
@@ -199,6 +201,9 @@ Learned Root Guard, which prevents a switch from accepting a superior BPDU from 
 
 ### Day 22 - Rapid Spanning Tree Protocol (RSTP)
 Learned why RSTP is more efficient than classic STP through faster convergence. Covered RSTP port states, new port roles (Alternate Port, Backup Port), RSTP configuration (default on modern Cisco switches), and RSTP link types: Edge, Point to Point, Shared.
+
+### Day 23 - EtherChannel
+Learned why EtherChannel is needed, bundling multiple physical links into one logical link for redundancy and extra bandwidth without STP blocking any of them. Covered load balancing, EtherChannel protocols (PAgP, LACP, static configuration), Layer 3 switch EtherChannel configuration, and verification commands.
 
 ---
 
